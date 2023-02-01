@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12F77C62986CBDA00D9F0DA /* AddAddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F77C52986CBDA00D9F0DA /* AddAddressCardView.swift */; };
+		E12F77C82986FCE000D9F0DA /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F77C72986FCE000D9F0DA /* AddFriendView.swift */; };
+		E12F77CA2986FCE800D9F0DA /* AddHobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F77C92986FCE800D9F0DA /* AddHobbyView.swift */; };
+		E1AB03AC29856E7A00E859B8 /* iOS5_BlomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03AB29856E7A00E859B8 /* iOS5_BlomeApp.swift */; };
+		E1AB03AE29856E7A00E859B8 /* AddressBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03AD29856E7A00E859B8 /* AddressBookView.swift */; };
+		E1AB03B029856E7A00E859B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AB03AF29856E7A00E859B8 /* Assets.xcassets */; };
+		E1AB03B329856E7A00E859B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AB03B229856E7A00E859B8 /* Preview Assets.xcassets */; };
+		E1AB03BD29856E7A00E859B8 /* iOS5_BlomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03BC29856E7A00E859B8 /* iOS5_BlomeTests.swift */; };
+		E1AB03C729856E7A00E859B8 /* iOS5_BlomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03C629856E7A00E859B8 /* iOS5_BlomeUITests.swift */; };
+		E1AB03C929856E7B00E859B8 /* iOS5_BlomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03C829856E7B00E859B8 /* iOS5_BlomeUITestsLaunchTests.swift */; };
+		E1AB03D829856EBF00E859B8 /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03D529856EBF00E859B8 /* AddressBook.swift */; };
+		E1AB03D929856EBF00E859B8 /* AddressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03D629856EBF00E859B8 /* AddressCard.swift */; };
+		E1AB03DA29856EBF00E859B8 /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03D729856EBF00E859B8 /* Hobby.swift */; };
+		E1AB03DC2985719600E859B8 /* AddressBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB03DB2985719600E859B8 /* AddressBookViewModel.swift */; };
+		E1F5C74329858AB200DFC612 /* AddressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5C74229858AB200DFC612 /* AddressCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1AB03B929856E7A00E859B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AB03A029856E7A00E859B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1AB03A729856E7A00E859B8;
+			remoteInfo = "iOS5-Blome";
+		};
+		E1AB03C329856E7A00E859B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AB03A029856E7A00E859B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1AB03A729856E7A00E859B8;
+			remoteInfo = "iOS5-Blome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E12F77C52986CBDA00D9F0DA /* AddAddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressCardView.swift; sourceTree = "<group>"; };
+		E12F77C72986FCE000D9F0DA /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		E12F77C92986FCE800D9F0DA /* AddHobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHobbyView.swift; sourceTree = "<group>"; };
+		E1AB03A829856E7A00E859B8 /* iOS5-Blome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS5-Blome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AB03AB29856E7A00E859B8 /* iOS5_BlomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_BlomeApp.swift; sourceTree = "<group>"; };
+		E1AB03AD29856E7A00E859B8 /* AddressBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookView.swift; sourceTree = "<group>"; };
+		E1AB03AF29856E7A00E859B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1AB03B229856E7A00E859B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1AB03B829856E7A00E859B8 /* iOS5-BlomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-BlomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AB03BC29856E7A00E859B8 /* iOS5_BlomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_BlomeTests.swift; sourceTree = "<group>"; };
+		E1AB03C229856E7A00E859B8 /* iOS5-BlomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-BlomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AB03C629856E7A00E859B8 /* iOS5_BlomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_BlomeUITests.swift; sourceTree = "<group>"; };
+		E1AB03C829856E7B00E859B8 /* iOS5_BlomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_BlomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1AB03D529856EBF00E859B8 /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressBook.swift; path = "../../iOS3-Blome/iOS3-Blome/AddressBook.swift"; sourceTree = "<group>"; };
+		E1AB03D629856EBF00E859B8 /* AddressCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressCard.swift; path = "../../iOS3-Blome/iOS3-Blome/AddressCard.swift"; sourceTree = "<group>"; };
+		E1AB03D729856EBF00E859B8 /* Hobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hobby.swift; path = "../../iOS3-Blome/iOS3-Blome/Hobby.swift"; sourceTree = "<group>"; };
+		E1AB03DB2985719600E859B8 /* AddressBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewModel.swift; sourceTree = "<group>"; };
+		E1F5C74229858AB200DFC612 /* AddressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1AB03A529856E7A00E859B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03B529856E7A00E859B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03BF29856E7A00E859B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1AB039F29856E7A00E859B8 = {
+			isa = PBXGroup;
+			children = (
+				E1AB03AA29856E7A00E859B8 /* iOS5-Blome */,
+				E1AB03BB29856E7A00E859B8 /* iOS5-BlomeTests */,
+				E1AB03C529856E7A00E859B8 /* iOS5-BlomeUITests */,
+				E1AB03A929856E7A00E859B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1AB03A929856E7A00E859B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB03A829856E7A00E859B8 /* iOS5-Blome.app */,
+				E1AB03B829856E7A00E859B8 /* iOS5-BlomeTests.xctest */,
+				E1AB03C229856E7A00E859B8 /* iOS5-BlomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1AB03AA29856E7A00E859B8 /* iOS5-Blome */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB03AB29856E7A00E859B8 /* iOS5_BlomeApp.swift */,
+				E1AB03AD29856E7A00E859B8 /* AddressBookView.swift */,
+				E1AB03DB2985719600E859B8 /* AddressBookViewModel.swift */,
+				E1F5C74229858AB200DFC612 /* AddressCardView.swift */,
+				E12F77C52986CBDA00D9F0DA /* AddAddressCardView.swift */,
+				E12F77C72986FCE000D9F0DA /* AddFriendView.swift */,
+				E12F77C92986FCE800D9F0DA /* AddHobbyView.swift */,
+				E1AB03D529856EBF00E859B8 /* AddressBook.swift */,
+				E1AB03D629856EBF00E859B8 /* AddressCard.swift */,
+				E1AB03D729856EBF00E859B8 /* Hobby.swift */,
+				E1AB03AF29856E7A00E859B8 /* Assets.xcassets */,
+				E1AB03B129856E7A00E859B8 /* Preview Content */,
+			);
+			path = "iOS5-Blome";
+			sourceTree = "<group>";
+		};
+		E1AB03B129856E7A00E859B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB03B229856E7A00E859B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1AB03BB29856E7A00E859B8 /* iOS5-BlomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB03BC29856E7A00E859B8 /* iOS5_BlomeTests.swift */,
+			);
+			path = "iOS5-BlomeTests";
+			sourceTree = "<group>";
+		};
+		E1AB03C529856E7A00E859B8 /* iOS5-BlomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB03C629856E7A00E859B8 /* iOS5_BlomeUITests.swift */,
+				E1AB03C829856E7B00E859B8 /* iOS5_BlomeUITestsLaunchTests.swift */,
+			);
+			path = "iOS5-BlomeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1AB03A729856E7A00E859B8 /* iOS5-Blome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AB03CC29856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-Blome" */;
+			buildPhases = (
+				E1AB03A429856E7A00E859B8 /* Sources */,
+				E1AB03A529856E7A00E859B8 /* Frameworks */,
+				E1AB03A629856E7A00E859B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS5-Blome";
+			productName = "iOS5-Blome";
+			productReference = E1AB03A829856E7A00E859B8 /* iOS5-Blome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1AB03B729856E7A00E859B8 /* iOS5-BlomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AB03CF29856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-BlomeTests" */;
+			buildPhases = (
+				E1AB03B429856E7A00E859B8 /* Sources */,
+				E1AB03B529856E7A00E859B8 /* Frameworks */,
+				E1AB03B629856E7A00E859B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1AB03BA29856E7A00E859B8 /* PBXTargetDependency */,
+			);
+			name = "iOS5-BlomeTests";
+			productName = "iOS5-BlomeTests";
+			productReference = E1AB03B829856E7A00E859B8 /* iOS5-BlomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1AB03C129856E7A00E859B8 /* iOS5-BlomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AB03D229856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-BlomeUITests" */;
+			buildPhases = (
+				E1AB03BE29856E7A00E859B8 /* Sources */,
+				E1AB03BF29856E7A00E859B8 /* Frameworks */,
+				E1AB03C029856E7A00E859B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1AB03C429856E7A00E859B8 /* PBXTargetDependency */,
+			);
+			name = "iOS5-BlomeUITests";
+			productName = "iOS5-BlomeUITests";
+			productReference = E1AB03C229856E7A00E859B8 /* iOS5-BlomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1AB03A029856E7A00E859B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E1AB03A729856E7A00E859B8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E1AB03B729856E7A00E859B8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1AB03A729856E7A00E859B8;
+					};
+					E1AB03C129856E7A00E859B8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1AB03A729856E7A00E859B8;
+					};
+				};
+			};
+			buildConfigurationList = E1AB03A329856E7A00E859B8 /* Build configuration list for PBXProject "iOS5-Blome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1AB039F29856E7A00E859B8;
+			productRefGroup = E1AB03A929856E7A00E859B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1AB03A729856E7A00E859B8 /* iOS5-Blome */,
+				E1AB03B729856E7A00E859B8 /* iOS5-BlomeTests */,
+				E1AB03C129856E7A00E859B8 /* iOS5-BlomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1AB03A629856E7A00E859B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AB03B329856E7A00E859B8 /* Preview Assets.xcassets in Resources */,
+				E1AB03B029856E7A00E859B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03B629856E7A00E859B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03C029856E7A00E859B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1AB03A429856E7A00E859B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F77C82986FCE000D9F0DA /* AddFriendView.swift in Sources */,
+				E1AB03D929856EBF00E859B8 /* AddressCard.swift in Sources */,
+				E1AB03DC2985719600E859B8 /* AddressBookViewModel.swift in Sources */,
+				E1F5C74329858AB200DFC612 /* AddressCardView.swift in Sources */,
+				E1AB03DA29856EBF00E859B8 /* Hobby.swift in Sources */,
+				E12F77CA2986FCE800D9F0DA /* AddHobbyView.swift in Sources */,
+				E1AB03D829856EBF00E859B8 /* AddressBook.swift in Sources */,
+				E1AB03AE29856E7A00E859B8 /* AddressBookView.swift in Sources */,
+				E1AB03AC29856E7A00E859B8 /* iOS5_BlomeApp.swift in Sources */,
+				E12F77C62986CBDA00D9F0DA /* AddAddressCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03B429856E7A00E859B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AB03BD29856E7A00E859B8 /* iOS5_BlomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AB03BE29856E7A00E859B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AB03C929856E7B00E859B8 /* iOS5_BlomeUITestsLaunchTests.swift in Sources */,
+				E1AB03C729856E7A00E859B8 /* iOS5_BlomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1AB03BA29856E7A00E859B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1AB03A729856E7A00E859B8 /* iOS5-Blome */;
+			targetProxy = E1AB03B929856E7A00E859B8 /* PBXContainerItemProxy */;
+		};
+		E1AB03C429856E7A00E859B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1AB03A729856E7A00E859B8 /* iOS5-Blome */;
+			targetProxy = E1AB03C329856E7A00E859B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1AB03CA29856E7B00E859B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1AB03CB29856E7B00E859B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1AB03CD29856E7B00E859B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Blome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-Blome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1AB03CE29856E7B00E859B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Blome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-Blome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1AB03D029856E7B00E859B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-BlomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Blome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Blome";
+			};
+			name = Debug;
+		};
+		E1AB03D129856E7B00E859B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-BlomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Blome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Blome";
+			};
+			name = Release;
+		};
+		E1AB03D329856E7B00E859B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-BlomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Blome";
+			};
+			name = Debug;
+		};
+		E1AB03D429856E7B00E859B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jonasblome.iOS5-BlomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Blome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1AB03A329856E7A00E859B8 /* Build configuration list for PBXProject "iOS5-Blome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AB03CA29856E7B00E859B8 /* Debug */,
+				E1AB03CB29856E7B00E859B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AB03CC29856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-Blome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AB03CD29856E7B00E859B8 /* Debug */,
+				E1AB03CE29856E7B00E859B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AB03CF29856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-BlomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AB03D029856E7B00E859B8 /* Debug */,
+				E1AB03D129856E7B00E859B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AB03D229856E7B00E859B8 /* Build configuration list for PBXNativeTarget "iOS5-BlomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AB03D329856E7B00E859B8 /* Debug */,
+				E1AB03D429856E7B00E859B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1AB03A029856E7A00E859B8 /* Project object */;
+}
